@@ -1,0 +1,78 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  font-family: "Comic Sans MS", cursive;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to top, #ffdde1, #ee9ca7);
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  width: 320px;
+  position: relative;
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.3s;
+  position: relative;
+}
+
+.main-btn {
+  background: #ff5e78;
+  color: white;
+}
+.yes {
+  background: #4caf50;
+  color: white;
+}
+.no {
+  background: #ff4d4d;
+  color: white;
+  position: absolute;
+}
+
+.box,
+.question,
+.love-msg {
+  margin-top: 20px;
+}
+.question,
+.love-msg {
+  display: none;
+}
+
+.love-msg {
+  font-size: 22px;
+  animation: pop 0.5s ease;
+}
+
+@keyframes pop {
+  from {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.click {
+  background-color: # ff5e78;
+}

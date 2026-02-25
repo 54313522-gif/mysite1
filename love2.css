@@ -1,0 +1,52 @@
+.song {
+  padding-right: 2px;
+  padding-right: 1400px;
+}
+body {
+  margin: 0;
+  font-family: "Comic Sans MS", cursive;
+  background: linear-gradient(to top, #ffdde1, #ee9ca7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  width: 350px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h1 {
+  color: #ff5e78;
+}
+
+.timeline {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.event {
+  margin-bottom: 20px;
+  padding-left: 15px;
+  border-left: 3px solid #ff5e78;
+}
+
+.date {
+  font-weight: bold;
+  color: #ff5e78;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background: #ff5e78;
+  color: white;
+  cursor: pointer;
+}
